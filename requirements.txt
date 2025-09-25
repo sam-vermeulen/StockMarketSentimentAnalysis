@@ -1,2 +1,0 @@
-# Reddit API
-praw==7.7.1
