@@ -19,6 +19,6 @@ A machine learning web application that analyzes sentiment in product reviews/tw
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/sentiment-analysis-app.git
+git clone https://github.com/samjvermeulen/sentiment-analysis-app.git
 cd sentiment-analysis-app
 pip install -r requirements.txt
