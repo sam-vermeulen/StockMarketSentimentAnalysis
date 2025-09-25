@@ -1,0 +1,49 @@
+# .gitignore
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+virtualenv/
+*venv*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Project specific
+data/raw/*
+data/processed/*
+*.pkl
+*.pickle
+models/*.h5
+models/*.pt
+*.log
+.env
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribution
+build/
+dist/
+*.egg-info/
