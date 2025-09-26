@@ -9,7 +9,7 @@ class RedditScrapper():
         self.subreddits = subreddits
         self.ticker_extractor = TickerExtractor()
         
-    def collect_subreddit_posts(self, subreddit_name, time_filter: str = 'day', limit: int = 100) -> pd.DataFrame:
+    def collect_subreddit_posts(self, subreddit_name, limit: int = 100) -> pd.DataFrame:
         subreddit = self.reddit.subreddit(subreddit_name)
         posts_data = []
         
